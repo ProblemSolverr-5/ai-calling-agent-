@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const { processHeavyData } = require('../controllers/customLogic');
+const { processHeavyData } = require('../controllers/customlogic');
 
 // n8n se aane wala data handle karne ke liye endpoint
 router.post('/process-data', (req, res) => {
